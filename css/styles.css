@@ -10,11 +10,107 @@
         темн-серый  #2F303A */
 
 
-body {
-        background-color: #ffffff;
-        color: #757575;
+/*Основные свойста для всей страницы*/
+
+body {  background-color: #ffffff;
+        color: #757575;}
+
+ul {list-style: none;}
+
+/*Свойства logo*/
+
+.logo {
+        color: #212121;
+}
+.logo .logo-web {
+        color: #2196f3;
 }
 
+.logo .logo-footer {
+        color: #ffffff;
+}
+
+/*Свойства address*/
+
+.address {
+        color: #ffffff;
+        background-color: #2f303a;
+}
+
+.address .mail,
+.address .tel {
+        color: rgba(255, 255, 255, 0.6);
+}
+
+/*Свойства site-nav*/
+
+.site-nav .link {
+        color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+      color: ;  
+}
+
+.site-nav .link.current{
+        color: #2196F3;
+}
+
+/*Свойства auth-nav*/
+
+.auth-nav .link{
+        color: #757575;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+        color: #2196F3;
+}
+
+/*Свойства герой - hero*/
+.hero {
+        background-color: #2f303a; 
+}
+
+.hero .hero-title,
+.hero .hero-button {
+        color: #ffffff;
+}
+
+.hero .hero-button {
+        background-color: #2196f3;
+}
+
+
+
+/*Свойства section-title*/
+
+.section-title {
+        color: #212121;
+}
+
+/*Свойства портфолио filter*/
+
+.filter .link {
+        color: #212121;
+        background-color: #f5f4fA;
+}
+
+.filter .link:hover,
+.filter .link:focus {
+        color: #ffffff;
+        background-color: #2196f3;
+}
+ .filter .link.current {
+        color: #ffffff;
+        background-color: #2196f3;     
+ }
+
+/*Свойства портфолио project*/
+
+.project .project-title {
+        color: #212121;
+}
 
 
 
