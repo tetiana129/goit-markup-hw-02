@@ -29,7 +29,8 @@ body {
         font-size: 14px;
         letter-spacing: 0.03em;
         color: var(--primary-text-color);
-        background-color: var(--withe-color);
+       /* background-color: var(--withe-color);*/
+        background-color: orange;
 }
 
  /*Убираем маркеры списков*/
