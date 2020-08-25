@@ -9,6 +9,15 @@
         св-серый    #F5F4FA - фон фильтров в портфолио
         темн-серый  #2F303A */
 
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --second-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --withe-color: #ffffff;
+    --bgc-dark-grey: #2F303A;
+    --bgc-light-grey: #F5F4FA; 
+}
 
 
 /*Основные настройки для все страниц*/
@@ -19,8 +28,8 @@ body {
         font-weight: normal;
         font-size: 14px;
         letter-spacing: 0.03em;
-        color: #757575;
-        background-color:#FFFFFF;
+        color: var(--primary-text-color);
+        background-color: var(--withe-color);
 }
 
  /*Убираем маркеры списков*/
@@ -38,15 +47,15 @@ ul {list-style: none;}
 /*Свойства logo*/
 
 .logo .logo-web {
-    color: #2196f3;
+    color: var(--accent-color);    
 }
 
 .logo .logo-footer {
-    color: #ffffff;
+    color: var(--withe-color)
 }
 
 .logo {
-    color: #212121;
+    color: var(--title-text-color);
     font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
@@ -61,16 +70,16 @@ ul {list-style: none;}
 }
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196F3;  
+    color: var(--accent-color);
 }
 
 .site-nav .link.current{
-    color: #2196F3;
+     color: var(--accent-color);
 }
 
 /*Свойства auth-nav*/
@@ -81,40 +90,40 @@ ul {list-style: none;}
 }
 
 .auth-nav .link{
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /*Свойства address*/
 
 .address {
-    color: #ffffff;
-    background-color: #2f303a;
+    color: var(--withe-color);
+    background-color: var(--bgc-dark-grey);
     font-style: normal;
 }
 
 .address .mail,
 .address .tel {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--second-text-color);
 }
 
 /*Свойства главной страницы сайта*/
 
 /*Свойства герой - hero*/
 .hero {
-    background-color: #2f303a; 
+    background-color: var(--bgc-dark-grey); 
 }
 
 .hero .hero-title,
 .hero .hero-button {
-    color: #ffffff;
+    color: var(--withe-color);
 }
 
 .hero .hero-button {
-    background-color: #2196f3;
+    background-color: var(--accent-color);
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 0.06em;
@@ -135,7 +144,7 @@ ul {list-style: none;}
 /*Свойства section-block раздел Особенности*/
 
 .section-block {
-    color: #212121;
+    color: var(--title-text-color);
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -146,55 +155,49 @@ ul {list-style: none;}
  .section-title {
      font-weight: bold;
      font-size: 36px;
-     color: #212121;
+     color: var(--title-text-color);
 }
 
 /*Цвет секции Наша команда*/
 .section-team {
-    background-color: #f5f4f4;
+    background-color: var(--bgc-light-grey);
 }
 
 /*Заголовки имен */
 .section-name {
     font-weight: 500;
     font-size: 16px;
-    color: #212121;
-    }
+    color: var(--title-text-color);
+}
 /*Заголовки должностей*/
 .section-position {
     font-size: 16px;
-    }
-
-
-
-
-
-
+}
 
 
 /*Свойства портфолио filter*/
 
 .filter .link {
-    color: #212121;
-    background-color: #f5f4fA;
+    color: var(--title-text-color);
+    background-color: var(--bgc-light-grey);
     font-weight: 500;
     font-size: 16px;
 }
 
 .filter .link:hover,
 .filter .link:focus {
-    color: #ffffff;
-    background-color: #2196f3;
+    color: var(--withe-color);
+    background-color: var(--accent-color);
 }
 .filter .link.current {
-    color: #ffffff;
-    background-color: #2196f3;     
+    color: var(--withe-color);
+    background-color: var(--accent-color);     
 }
 
 /*Свойства портфолио project*/
 
 .project .project-title {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 0.06em;
